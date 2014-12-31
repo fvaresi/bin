@@ -1,9 +1,7 @@
-#metacity --replace &
-#sleep 5
+pkill -9 unclutter
 xgamma -gamma 1.7
-#/usr/games/openarena
-/media/datos/openarena-0.8.8/openarena.x86_64
+/home/fvaresi/openarena-0.8.8/openarena.x86_64
 wait $!
 xgamma -gamma 1.0
-#compiz --replace &
 xrandr -s 1366x768
+unclutter
