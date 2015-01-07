@@ -1,0 +1,2 @@
+#! /usr/bin/zsh
+notmuch search --output=files tag:deleted date:..30_days | xargs -l rm

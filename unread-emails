@@ -1,2 +1,2 @@
 #! /usr/bin/zsh
-notmuch search tag:unread | wc -l
+notmuch search tag:inbox AND tag:unread | wc -l

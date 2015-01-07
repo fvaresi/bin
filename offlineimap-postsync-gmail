@@ -2,3 +2,5 @@ notmuch new
 
 notmuch tag +infuy from:infuy.com OR to:infuy.com
 notmuch tag -inbox +lifemail from:life@infuy.com tag:inbox
+
+notmuch tag -inbox +clojure from:clojure@googlegroups.com tag:inbox
