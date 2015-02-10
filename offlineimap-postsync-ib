@@ -8,3 +8,6 @@ notmuch tag +jira from:jira@internetbrands.com tag:inbox
 notmuch tag -inbox from:"Community Pulse" tag:inbox
 notmuch tag -inbox from:"WordPress" tag:inbox
 notmuch tag -inbox from:"CPHub" tag:inbox
+notmuch tag -inbox from:"vBSphinx" tag:inbox
+notmuch tag -inbox from:"IB SITES ALERT" tag:inbox
+notmuch tag -inbox from:"Jetpack Support" tag:inbox
