@@ -4,4 +4,5 @@ xgamma -gamma 1.7
 wait $!
 xgamma -gamma 1.0
 xrandr -s 1366x768
-unclutter
+# for now do not restore unclutter
+#unclutter
