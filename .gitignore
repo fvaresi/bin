@@ -2,3 +2,8 @@ remote-autocomm*
 lein
 netbeans
 selenium-server-standalone*
+/btsync
+/boot
+/phpunit
+/Groovesquid.jar
+/.sync/
