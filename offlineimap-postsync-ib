@@ -4,7 +4,7 @@ notmuch tag +autocomm from:internetbrands.com tag:inbox
 notmuch tag +autocomm to:internetbrands.com tag:inbox
 notmuch tag +autocomm to:fernando.varesi@vbulletin.com tag:inbox
 
-notmuch tag -inbox +dailyscrum subject:"Daily Scrum" tag:inbox
+notmuch tag -inbox -unread +dailyscrum subject:"Daily Scrum" tag:inbox
 
 notmuch tag +jira from:jira@internetbrands.com tag:inbox
 

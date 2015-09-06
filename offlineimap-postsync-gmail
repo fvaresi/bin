@@ -5,5 +5,5 @@ notmuch tag -inbox +lifemail from:life@infuy.com tag:inbox
 
 notmuch tag -inbox +clojure from:lispcast.com tag:inbox
 
-notmuch tag -inbox +clojure from:clojure@googlegroups.com tag:inbox
-notmuch tag -inbox +clojurescript from:clojurescript@googlegroups.com tag:inbox
+notmuch tag -inbox +clojure +deleted from:clojure@googlegroups.com tag:inbox
+notmuch tag -inbox +clojurescript +deleted from:clojurescript@googlegroups.com tag:inbox
