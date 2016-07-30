@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exiftool -P -d '%Y%m%d%H%M%S' '-filename<${CreateDate}.%e' $@

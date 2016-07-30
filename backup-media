@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rsync -avz --size-only --progress --rsync-path=/storage/.kodi/addons/network.backup.rsync/bin/rsync  ~/Pictures/Isabella/ openelec:"/media/My\ Book/Pictures/Isabella"
+
+rsync -avz --size-only --progress --rsync-path=/storage/.kodi/addons/network.backup.rsync/bin/rsync  ~/Pictures/Emilia/ openelec:"/media/My\ Book/Pictures/Emilia"
+
+rsync -avz --size-only --progress --rsync-path=/storage/.kodi/addons/network.backup.rsync/bin/rsync  ~/Videos/Isabella/ openelec:"/media/My\ Book/Videos/Isabella"
+
+rsync -avz --size-only --progress --rsync-path=/storage/.kodi/addons/network.backup.rsync/bin/rsync  ~/Videos/Emilia/ openelec:"/media/My\ Book/Videos/Emilia" 

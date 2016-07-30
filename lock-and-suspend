@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gksudo -- sh -c "i3lock -i /home/fvaresi/Pictures/wallpapers/325141.png -t && pm-suspend"
