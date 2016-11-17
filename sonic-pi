@@ -1,0 +1,7 @@
+pulseaudio --kill
+jack_control start
+
+~/src/sonic-pi/app/gui/qt/rp-app-bin
+
+jack_control exit
+pulseaudio --start
